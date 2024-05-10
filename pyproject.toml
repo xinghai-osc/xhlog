@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "xhlog"
+version = "0.0.1"
+description = "[XhLog]一个轻量，简易的Python日志记录模块。"
+authors = ["Yeying-Xingchen <yeyingxingchen@yeah.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
