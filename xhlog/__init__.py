@@ -1,4 +1,9 @@
 import datetime
+import os
+
+log_dir = "./log"
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
 
 def info(message):
     current_time = datetime.datetime.now()
